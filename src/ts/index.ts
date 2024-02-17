@@ -1,3 +1,7 @@
 // Handle interactions with the menu button.
-import { MobileNav } from './modules/mobile-nav.js';
-MobileNav();
+import { mobileNav } from './modules/mobile-nav.js';
+mobileNav();
+
+// Handle interactions with the close tagline button.
+import { tagline } from './modules/tagline.js';
+tagline();

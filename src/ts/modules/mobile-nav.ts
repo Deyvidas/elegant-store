@@ -1,4 +1,4 @@
-function MobileNav() {
+function mobileNav() {
     const navButton = document.querySelector('#mobileNavBtn') as HTMLButtonElement;
     const navElement = document.querySelector('#mobileNav') as HTMLDivElement;
     const menuIcon = document.querySelector('#navIcon') as HTMLDivElement;
@@ -10,4 +10,4 @@ function MobileNav() {
     };
 }
 
-export { MobileNav };
+export { mobileNav };
