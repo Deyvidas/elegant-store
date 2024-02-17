@@ -1,11 +1,41 @@
 <header class="header">
     <div class="container">
         <div class="header__row">
-            <div class="logo">Logo</div>
-            <button id="mobileNavBtn" class="mobile-nav-btn">
-                <div id="navIcon" class="nav-icon"></div>
-            </button>
+            <a href="#!" class="header__logo logo">3legant.</a>
+
+            <nav class="nav-links">
+                <div class="nav-links__item">
+                    <a href="#!" class="nav-links__link">Home</a>
+                </div>
+                <div class="nav-links__item">
+                    <button class="nav-links__link button">
+                        Shop
+                        @@include('./../components/svg-icons/headers/chevron-down.html')
+                    </button>
+                </div>
+                <div class="nav-links__item">
+                    <button class="nav-links__link button">
+                        Product
+                        @@include('./../components/svg-icons/headers/chevron-down.html')
+                    </button>
+                </div>
+                <div class="nav-links__item">
+                    <a href="#!" class="nav-links__link">Contact Us</a>
+                </div>
+            </nav>
+
+            <nav class="nav-icons">
+                <a href="#!" class="nav-icons__link">
+                    @@include('./../components/svg-icons/headers/search.html')
+                </a>
+                <a href="#!" class="nav-icons__link">
+                    @@include('./../components/svg-icons/headers/user.html')
+                </a>
+                <a href="#!" class="nav-icons__link">
+                    @@include('./../components/svg-icons/headers/shopping-bag.html')
+                    <div class="bag-count">2</div>
+                </a>
+            </nav>
         </div>
     </div>
 </header>
-@@include('./mobile-nav.html')

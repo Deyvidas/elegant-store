@@ -1,5 +1,5 @@
 :root {
-    --container-width: 1200px;
+    --container-width: 1150px;
     --container-padding: 15px;
 
     --font-main: "Inter", sans-serif;
@@ -12,11 +12,12 @@
     --text-color: #121212;
     --text-neutral: #141718;
     --text-white: #ffffff;
-    --text-yellow: #ffab00;
+    --text-yellow: hsl(40, 100%, 50%);
 
     --accent: #377dff;
     --white: #ffffff;
-    --yellow: #ffab00;
+    --yellow: hsl(40, 100%, 50%);
+    --yellow-opaque: hsl(40, 100%, 50%, 64%);
     --gray: #343839;
     --gray-light: #6c7275;
 
