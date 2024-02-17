@@ -7,12 +7,24 @@
     --font-nav: 'Space Grotesk', sans-serif;
 
     --page-bg: #ffffff;
-    --text-color: #000000;
-    --accent: #ac182c;
+    --black-bg: #141718;
+
+    --text-color: #121212;
+    --text-neutral: #141718;
+    --text-white: #ffffff;
+    --text-yellow: #ffab00;
+
+    --accent: #377dff;
+    --white: #ffffff;
+    --yellow: #ffab00;
+    --gray: #343839;
+    --gray-light: #6c7275;
 
     --laptop-size: 1199px;
     --tablet-size: 959px;
     --mobile-size: 599px;
+
+    --transition-duration: 0.3s;
 }
 
 .dark {
