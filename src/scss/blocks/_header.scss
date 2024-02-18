@@ -1,15 +1,14 @@
 .header {
     background-color: var(--yellow-opaque);
     color: var(--text-neutral);
+    line-height: 24px;
+    padding-block: 18px;
 
     .header__row {
         display: flex;
         justify-content: space-between;
-        padding-block: 18px;
-
-        & > .header__logo {
-            line-height: 24px;
-        }
+        margin-block: auto;
+        width: 100%;
 
         a {
             color: currentColor;

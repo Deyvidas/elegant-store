@@ -10,14 +10,14 @@
     --black-bg: #141718;
 
     --text-color: #121212;
+    --text-accent: #377dff;
     --text-neutral: #141718;
     --text-white: #ffffff;
-    --text-yellow: hsl(40, 100%, 50%);
+    --text-yellow: #ffaa00;
 
-    --accent: #377dff;
     --white: #ffffff;
-    --yellow: hsl(40, 100%, 50%);
-    --yellow-opaque: hsl(40, 100%, 50%, 64%);
+    --yellow: #ffaa00;
+    --yellow-opaque: #edbf41;
     --gray: #343839;
     --gray-light: #6c7275;
 
@@ -26,6 +26,7 @@
     --mobile-size: 599px;
 
     --transition-duration: 0.3s;
+    --button-radius: 8px;
 }
 
 .dark {

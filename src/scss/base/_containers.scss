@@ -1,7 +1,9 @@
 .container {
-    padding: 0 var(--container-padding);
+    display: flex;
+    height: 100%;
+    margin-inline: auto;
     max-width: var(--container-width);
-    margin: 0 auto;
+    padding-inline: var(--container-padding);
 }
 
 .container-right {

@@ -1,9 +1,11 @@
 .tagline {
+    align-items: center;
     background-color: var(--black-bg);
-    display: inline-flex;
+    display: flex;
     font-family: var(--font-main);
     justify-content: center;
     padding-block: 8px;
+    position: relative;
 
     a {
         border-bottom: 1px solid currentColor;
@@ -14,9 +16,9 @@
         column-gap: 12px;
         display: flex;
         font-size: 14px;
-        line-height: 24px;
 
         & > .tagline__content__text {
+            align-items: center;
             color: var(--text-white);
             column-gap: 12px;
             display: flex;
@@ -28,15 +30,17 @@
             column-gap: 4px;
             display: flex;
             font-weight: 500;
+            line-height: 23px;
         }
     }
 
     & > .tagline__close {
+        align-items: center;
         color: var(--gray);
         cursor: pointer;
+        display: flex;
         position: absolute;
         right: 16px;
-        top: 10px;
 
         &:hover {
             color: var(--gray-light);
