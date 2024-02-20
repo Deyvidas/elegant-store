@@ -1,0 +1,26 @@
+[
+  {
+    "imageFile": "01",
+    "imageAlt": "Headband",
+    "isMain": true,
+    "title": "Headband",
+    "linkHref": "#!",
+    "linkText": "Collection"
+  },
+  {
+    "imageFile": "02",
+    "imageAlt": "Earbuds",
+    "isMain": false,
+    "title": "Earbuds",
+    "linkHref": "#!",
+    "linkText": "Collection"
+  },
+  {
+    "imageFile": "03",
+    "imageAlt": "Accessories",
+    "isMain": false,
+    "title": "Accessories",
+    "linkHref": "#!",
+    "linkText": "Collection"
+  }
+]

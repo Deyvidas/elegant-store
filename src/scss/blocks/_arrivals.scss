@@ -1,58 +1,44 @@
-.arrivals {
+.arrivals__header {
+    align-items: center;
     display: flex;
-    flex-direction: column;
-    margin-block: 48px;
-    row-gap: 48px;
+    justify-content: space-between;
 
-    &__header {
-        align-items: center;
+    .swiper-pagination {
+        column-gap: 8px;
         display: flex;
-        justify-content: space-between;
+        position: static;
+        width: fit-content;
 
-        &__title {
-            font-family: var(--font-accent);
-            font-size: 40px;
-            font-weight: 500;
-            line-height: 1.1;
-        }
-
-        .swiper-pagination {
-            column-gap: 8px;
+        &-bullet {
+            align-items: center;
+            background-color: transparent;
+            color: var(--gray-light);
+            cursor: default;
             display: flex;
-            position: static;
-            width: fit-content;
+            height: 16px;
+            justify-content: center;
+            margin-inline: 0 !important;
+            opacity: 1;
+            transition-duration: var(--transition-duration);
+            width: 16px;
 
-            &-bullet {
-                align-items: center;
-                background-color: transparent;
-                color: var(--gray-light);
-                cursor: default;
-                display: flex;
-                height: 16px;
-                justify-content: center;
-                margin-inline: 0 !important;
-                opacity: 1;
-                transition-duration: var(--transition-duration);
-                width: 16px;
+            &::before {
+                aspect-ratio: 1;
+                background-color: currentColor;
+                border-radius: 50%;
+                content: "";
+                width: 8px;
+            }
 
-                &::before {
-                    aspect-ratio: 1;
-                    background-color: currentColor;
-                    border-radius: 50%;
-                    content: "";
-                    width: 8px;
-                }
+            &:hover {
+                cursor: pointer;
+            }
 
-                &:hover {
-                    cursor: pointer;
-                }
-
-                &-active {
-                    @extend .swiper-pagination-bullet;
-                    border-radius: 50%;
-                    border: 1px solid currentColor;
-                    color: var(--black-bg);
-                }
+            &-active {
+                @extend .swiper-pagination-bullet;
+                border-radius: 50%;
+                border: 1px solid currentColor;
+                color: var(--black-bg);
             }
         }
     }

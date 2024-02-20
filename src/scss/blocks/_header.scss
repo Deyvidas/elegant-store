@@ -1,8 +1,11 @@
 .header {
+    align-items: center;
+    display: flex;
+    max-height: var(--header-height);
+    min-height: var(--header-height);
+
     background-color: var(--yellow-opaque);
     color: var(--text-neutral);
-    line-height: 24px;
-    padding-block: 18px;
 
     .header__row {
         display: flex;
@@ -12,6 +15,7 @@
 
         a {
             color: currentColor;
+            user-select: none;
         }
 
         & > .nav-links {

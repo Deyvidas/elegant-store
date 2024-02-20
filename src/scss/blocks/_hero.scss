@@ -5,7 +5,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    height: 820px;
+    height: calc(100vh - (var(--tagline-height) + var(--header-height)));
+    -webkit-user-drag: none;
 
     &__content {
         left: 50%;
@@ -34,16 +35,19 @@
 
         &__link {
             align-items: center;
+            display: flex;
+            height: 56px;
+            justify-content: center;
+            width: 234px;
+
             background-color: var(--black-bg);
             border-radius: var(--button-radius);
             color: var(--text-white);
-            display: flex;
+
             font-size: 18px;
             font-weight: 500;
-            height: 56px;
-            justify-content: center;
             line-height: 1.778;
-            width: 234px;
+            user-select: none;
 
             &:hover {
                 background-color: var(--black-bg_on-hover);

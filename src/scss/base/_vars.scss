@@ -1,6 +1,14 @@
+.dark {
+    --page-bg: #252526;
+    --text-color: #ffffff;
+}
+
 :root {
     --container-width: 1150px;
     --container-padding: 15px;
+
+    --tagline-height: 40px;
+    --header-height: 60px;
 
     --font-main: "Inter", sans-serif;
     --font-accent: "Poppins", sans-serif;
@@ -31,9 +39,4 @@
 
     --transition-duration: 0.3s;
     --button-radius: 8px;
-}
-
-.dark {
-    --page-bg: #252526;
-    --text-color: #ffffff;
 }

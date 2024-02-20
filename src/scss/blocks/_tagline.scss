@@ -4,12 +4,14 @@
     display: flex;
     font-family: var(--font-main);
     justify-content: center;
-    padding-block: 8px;
     position: relative;
+    min-height: var(--tagline-height);
+    max-height: var(--tagline-height);
 
     a {
         border-bottom: 1px solid currentColor;
         cursor: pointer;
+        user-select: none;
     }
 
     & > .tagline__content {
