@@ -45,6 +45,12 @@
                 background-color: var(--sea-green);
                 color: var(--white);
             }
+
+            &__hot {
+                @extend .product-card__picture__badges__badge;
+                background-color: var(--white);
+                text-transform: uppercase;
+            }
         }
 
         &__to-wishlist-btn {

@@ -1,7 +1,8 @@
 [
   {
-    "imageFile": "01",
+    "imageFile": "./media/images/arrivals/01@3x.jpg",
     "imageAlt": "Skullcandy",
+    "isHot": false,
     "isNew": false,
     "discount": 13,
     "rating": 4,
@@ -9,8 +10,9 @@
     "productPrice": 299.99
   },
   {
-    "imageFile": "02",
+    "imageFile": "./media/images/arrivals/02@3x.jpg",
     "imageAlt": "Beats",
+    "isHot": false,
     "isNew": true,
     "discount": 0,
     "rating": 5,
@@ -18,8 +20,9 @@
     "productPrice": 349.99
   },
   {
-    "imageFile": "03",
+    "imageFile": "./media/images/arrivals/03@3x.jpg",
     "imageAlt": "Sony",
+    "isHot": false,
     "isNew": false,
     "discount": 25,
     "rating": 5,
@@ -27,8 +30,9 @@
     "productPrice": 149.99
   },
   {
-    "imageFile": "04",
+    "imageFile": "./media/images/arrivals/04@3x.jpg",
     "imageAlt": "Skullcandy",
+    "isHot": false,
     "isNew": false,
     "discount": 55,
     "rating": 3,
@@ -36,8 +40,9 @@
     "productPrice": 79.99
   },
   {
-    "imageFile": "05",
+    "imageFile": "./media/images/arrivals/05@3x.jpg",
     "imageAlt": "Beats",
+    "isHot": false,
     "isNew": true,
     "discount": 33,
     "rating": 5,
@@ -45,8 +50,9 @@
     "productPrice": 224.99
   },
   {
-    "imageFile": "01",
+    "imageFile": "./media/images/arrivals/01@3x.jpg",
     "imageAlt": "Skullcandy",
+    "isHot": false,
     "isNew": false,
     "discount": 13,
     "rating": 4,
@@ -54,8 +60,9 @@
     "productPrice": 299.99
   },
   {
-    "imageFile": "02",
+    "imageFile": "./media/images/arrivals/02@3x.jpg",
     "imageAlt": "Beats",
+    "isHot": false,
     "isNew": true,
     "discount": 0,
     "rating": 5,
@@ -63,8 +70,9 @@
     "productPrice": 349.99
   },
   {
-    "imageFile": "03",
+    "imageFile": "./media/images/arrivals/03@3x.jpg",
     "imageAlt": "Sony",
+    "isHot": false,
     "isNew": false,
     "discount": 25,
     "rating": 5,
@@ -72,8 +80,9 @@
     "productPrice": 149.99
   },
   {
-    "imageFile": "04",
+    "imageFile": "./media/images/arrivals/04@3x.jpg",
     "imageAlt": "Skullcandy",
+    "isHot": false,
     "isNew": false,
     "discount": 55,
     "rating": 3,
@@ -81,8 +90,9 @@
     "productPrice": 79.99
   },
   {
-    "imageFile": "05",
+    "imageFile": "./media/images/arrivals/05@3x.jpg",
     "imageAlt": "Beats",
+    "isHot": false,
     "isNew": true,
     "discount": 33,
     "rating": 5,

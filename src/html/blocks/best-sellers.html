@@ -1,3 +1,9 @@
 <section class="section-container">
     @@include('./../components/section-title.html', {"title": "Best Seller", "hasPagination": false})
+
+    <div class="container">
+        <div class="best-sellers__grid">
+            @@loop('./../components/product-card.html', './../best-sellers.json')
+        </div>
+    </div>
 </section>

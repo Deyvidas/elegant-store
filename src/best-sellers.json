@@ -1,0 +1,82 @@
+[
+  {
+    "imageFile": "./media/images/best-sellers/01@3x.jpg",
+    "imageAlt": "Sony",
+    "isHot": true,
+    "isNew": false,
+    "discount": 10,
+    "rating": 4,
+    "productName": "Sony - WH-1000XM5 Wireless Noise Canceling",
+    "productPrice": 299.99
+  },
+  {
+    "imageFile": "./media/images/best-sellers/02@3x.jpg",
+    "imageAlt": "Beats",
+    "isHot": true,
+    "isNew": false,
+    "discount": 0,
+    "rating": 5,
+    "productName": "Beats Studio Pro",
+    "productPrice": 349.99
+  },
+  {
+    "imageFile": "./media/images/best-sellers/03@3x.jpg",
+    "imageAlt": "Sony",
+    "isHot": true,
+    "isNew": false,
+    "discount": 33,
+    "rating": 3,
+    "productName": "Sony - WH-CH720N Wireless Noise Canceling",
+    "productPrice": 149.99
+  },
+  {
+    "imageFile": "./media/images/best-sellers/04@3x.jpg",
+    "imageAlt": "Skullcandy",
+    "isHot": true,
+    "isNew": false,
+    "discount": 65,
+    "rating": 4,
+    "productName": "Skullcandy - Rail True Wireless Earbuds",
+    "productPrice": 79.99
+  },
+  {
+    "imageFile": "./media/images/best-sellers/05@3x.jpg",
+    "imageAlt": "Beats",
+    "isHot": true,
+    "isNew": false,
+    "discount": 0,
+    "rating": 4,
+    "productName": "Beats Studio Pro",
+    "productPrice": 249.99
+  },
+  {
+    "imageFile": "./media/images/best-sellers/06@3x.jpg",
+    "imageAlt": "JBL",
+    "isHot": true,
+    "isNew": false,
+    "discount": 25,
+    "rating": 5,
+    "productName": "JBL Reflect Flow Pro+ Bluetooth Truly Wireless Sports",
+    "productPrice": 179.95
+  },
+  {
+    "imageFile": "./media/images/best-sellers/07@3x.jpg",
+    "imageAlt": "Bose",
+    "isHot": true,
+    "isNew": false,
+    "discount": 0,
+    "rating": 4,
+    "productName": "Bose QuietComfort Headphones",
+    "productPrice": 349.0
+  },
+  {
+    "imageFile": "./media/images/best-sellers/08@3x.jpg",
+    "imageAlt": "AKG",
+    "isHot": true,
+    "isNew": false,
+    "discount": 0,
+    "rating": 5,
+    "productName": "AKG Y600NC Wireless",
+    "productPrice": 349.99
+  }
+]

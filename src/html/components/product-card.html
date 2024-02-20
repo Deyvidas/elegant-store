@@ -1,7 +1,10 @@
 <article class="product-card">
     <div class="product-card__picture">
-        <img draggable="false" class="product-card__picture__image" src="./media/images/arrivals/@@imageFile@3x.jpg" alt="@@imageAlt">
+        <img draggable="false" class="product-card__picture__image" src="@@imageFile" alt="@@imageAlt">
         <div class="product-card__picture__badges">
+            @@if (isHot) {
+                <span class="product-card__picture__badges__hot">Hot</span>
+            }
             @@if (discount > 0) {
                 <span class="product-card__picture__badges__discount">-@@discount%</span>
             }
