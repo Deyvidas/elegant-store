@@ -1,0 +1,29 @@
+<div class="swiper-slide">
+    <article class="product-card">
+        <div class="product-card__picture">
+            <img class="product-card__picture__image" src="./media/images/arrivals/@@imageFile@3x.jpg" alt="@@imageAlt">
+            <div class="product-card__picture__badges">
+                @@if (discount > 0) {
+                    <span class="product-card__picture__badges__discount">-@@discount%</span>
+                }
+                @@if (isNew) {
+                    <span class="product-card__picture__badges__new">New</span>
+                }
+            </div>
+            <button class="product-card__picture__to-wishlist-btn">
+                @@include('./../components/svg-icons/arrivals/heart.html')
+            </button>
+            <button class="product-card__picture__add-to-cart-btn">Add to cart</button>
+        </div>
+
+        <div class="product-card__info">
+            <div class="product-card__info__rating">
+                @@for (let i = 0; i < rating; i++) {
+                    @@include('./../components/svg-icons/arrivals/star.html')
+                }
+            </div>
+            <h2 class="product-card__info__title">@@productName</h2>
+            <span class="product-card__info__price">$@@productPrice</span>
+        </div>
+    </article>
+</div>

@@ -1,14 +1,13 @@
 .hero-section {
-    background-image: url("./../media/images/hero-bg.png");
+    align-items: center;
+    background-image: url("./../media/images/hero-bg/hero-bg@3x.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
     height: 820px;
 
-    .hero-section__content {
-        align-self: center;
-        display: flex;
-        flex-direction: column;
+    &__content {
         left: 50%;
         position: relative;
         width: 50%;
@@ -45,6 +44,10 @@
             justify-content: center;
             line-height: 1.778;
             width: 234px;
+
+            &:hover {
+                background-color: var(--black-bg_on-hover);
+            }
         }
     }
 }

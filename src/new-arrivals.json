@@ -1,0 +1,92 @@
+[
+  {
+    "imageFile": "01",
+    "imageAlt": "Skullcandy",
+    "isNew": false,
+    "discount": 13,
+    "rating": 4,
+    "productName": "Skullcandy - Crusher anc 2 wireless headphones",
+    "productPrice": 299.99
+  },
+  {
+    "imageFile": "02",
+    "imageAlt": "Beats",
+    "isNew": true,
+    "discount": 0,
+    "rating": 5,
+    "productName": "Beats Studio Pro",
+    "productPrice": 349.99
+  },
+  {
+    "imageFile": "03",
+    "imageAlt": "Sony",
+    "isNew": false,
+    "discount": 25,
+    "rating": 5,
+    "productName": "Sony - WH-CH720N Wireless Noise Canceling",
+    "productPrice": 149.99
+  },
+  {
+    "imageFile": "04",
+    "imageAlt": "Skullcandy",
+    "isNew": false,
+    "discount": 55,
+    "rating": 3,
+    "productName": "Skullcandy - Rail True Wireless Earbuds",
+    "productPrice": 79.99
+  },
+  {
+    "imageFile": "05",
+    "imageAlt": "Beats",
+    "isNew": true,
+    "discount": 33,
+    "rating": 5,
+    "productName": "Beats Studio Pro",
+    "productPrice": 224.99
+  },
+  {
+    "imageFile": "01",
+    "imageAlt": "Skullcandy",
+    "isNew": false,
+    "discount": 13,
+    "rating": 4,
+    "productName": "Skullcandy - Crusher anc 2 wireless headphones",
+    "productPrice": 299.99
+  },
+  {
+    "imageFile": "02",
+    "imageAlt": "Beats",
+    "isNew": true,
+    "discount": 0,
+    "rating": 5,
+    "productName": "Beats Studio Pro",
+    "productPrice": 349.99
+  },
+  {
+    "imageFile": "03",
+    "imageAlt": "Sony",
+    "isNew": false,
+    "discount": 25,
+    "rating": 5,
+    "productName": "Sony - WH-CH720N Wireless Noise Canceling",
+    "productPrice": 149.99
+  },
+  {
+    "imageFile": "04",
+    "imageAlt": "Skullcandy",
+    "isNew": false,
+    "discount": 55,
+    "rating": 3,
+    "productName": "Skullcandy - Rail True Wireless Earbuds",
+    "productPrice": 79.99
+  },
+  {
+    "imageFile": "05",
+    "imageAlt": "Beats",
+    "isNew": true,
+    "discount": 33,
+    "rating": 5,
+    "productName": "Beats Studio Pro",
+    "productPrice": 224.99
+  }
+]
