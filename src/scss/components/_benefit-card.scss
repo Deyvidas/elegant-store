@@ -1,0 +1,32 @@
+.benefit-card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+
+    padding-block: 48px;
+    padding-inline: 32px;
+
+    background-color: var(--white-smoke);
+    color: var(--text-neutral);
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+
+        font-family: var(--font-accent);
+
+        &__header {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: calc(28 / 20);
+        }
+
+        &__text {
+            color: var(--text-gray);
+            font-size: 14px;
+            font-weight: normal;
+            line-height: calc(24 / 14);
+        }
+    }
+}

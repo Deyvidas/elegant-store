@@ -1,0 +1,9 @@
+.benefits {
+    padding-block: 40px;
+
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 24px;
+    }
+}
