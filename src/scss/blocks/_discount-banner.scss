@@ -1,22 +1,19 @@
 .discount-banner {
     display: grid;
-    grid-template-areas: ". content";
     grid-template-columns: repeat(2, 1fr);
+    padding-top: 52px;
 
-    background-image: url("./../media/images/discount-banner/discount-bg.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 532px;
+    &__image {
+    }
 
     &__content {
-        grid-area: content;
-
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding-left: 72px;
         row-gap: 24px;
+
+        background-color: var(--navajo-white);
 
         &__title {
             display: flex;
