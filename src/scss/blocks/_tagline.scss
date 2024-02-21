@@ -38,14 +38,14 @@
 
     & > .tagline__close {
         align-items: center;
-        color: var(--gray);
+        color: var(--gray-dark);
         cursor: pointer;
         display: flex;
         position: absolute;
         right: 16px;
 
         &:hover {
-            color: var(--gray-light);
+            color: var(--gray);
             transition-duration: var(--transition-duration);
         }
     }
