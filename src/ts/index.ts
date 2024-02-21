@@ -6,6 +6,10 @@
 import { tagline } from './modules/tagline';
 tagline();
 
+// Activate the timer in the discount-banner block.
+import { activateTimer } from './modules/discount-banner-timer';
+activateTimer();
+
 // Import Swiper.
 import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';

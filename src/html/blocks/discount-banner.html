@@ -1,0 +1,21 @@
+<div class="discount-banner">
+    <div class="discount-banner__content">
+        <div class="discount-banner__content__title">
+            <span class="discount-banner__content__title__type">Promotion</span>
+            <h2 class="discount-banner__content__title__header">Hurry up! 40% OFF</h2>
+            <h3 class="discount-banner__content__title__invitation">Thousands of high tech are waiting for you</h3>
+        </div>
+
+        <div class="discount-banner__content__timer">
+            <span class="discount-banner__content__timer__text">Offer expires in:</span>
+            <div class="discount-banner__content__timer__ceils">
+                @@include('./../components/timer-ceil.html', {id: "timerDays", value: "02", label: "Days"})
+                @@include('./../components/timer-ceil.html', {id: "timerHours", value: "12", label: "Hours"})
+                @@include('./../components/timer-ceil.html', {id: "timerMinutes", value: "45", label: "Minutes"})
+                @@include('./../components/timer-ceil.html', {id: "timerSeconds", value: "05", label: "Seconds"})
+            </div>
+        </div>
+
+        <a href="#!" class="discount-banner__content__link">Shop now</a>
+    </div>
+</div>

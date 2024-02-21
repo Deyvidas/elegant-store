@@ -1,0 +1,90 @@
+.discount-banner {
+    display: grid;
+    grid-template-areas: ". content";
+    grid-template-columns: repeat(2, 1fr);
+
+    background-image: url("./../media/images/discount-banner/discount-bg.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 532px;
+
+    &__content {
+        grid-area: content;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 72px;
+        row-gap: 24px;
+
+        &__title {
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+
+            &__type {
+                color: var(--text-accent);
+                font-size: 16px;
+                font-weight: bold;
+                line-height: calc(16 / 16);
+                text-transform: uppercase;
+            }
+
+            &__header {
+                font-family: var(--font-accent);
+                font-size: 40px;
+                font-weight: 500;
+                letter-spacing: calc(-0.4em / 40);
+                line-height: calc(44 / 40);
+            }
+
+            &__invitation {
+                font-size: 20px;
+                font-weight: normal;
+                line-height: calc(32 / 20);
+            }
+        }
+
+        &__timer {
+            display: flex;
+            flex-direction: column;
+            row-gap: 12px;
+
+            color: var(--text-neutral);
+
+            &__text {
+                font-size: 16px;
+                font-weight: normal;
+                line-height: calc(26 / 16);
+            }
+
+            &__ceils {
+                display: flex;
+                column-gap: 16px;
+            }
+        }
+
+        &__link {
+            width: fit-content;
+            padding-inline: 40px;
+            padding-block: 6px;
+
+            color: var(--text-white);
+            font-size: 16px;
+            font-weight: 500;
+            line-height: calc(28 / 16);
+            letter-spacing: calc(-0.4em / 16);
+
+            background-color: var(--black-bg);
+            border-radius: 8px;
+            transition-duration: var(--transition-duration);
+            user-select: none;
+
+            &:hover {
+                cursor: pointer;
+                background-color: var(--black-bg_on-hover);
+            }
+        }
+    }
+}

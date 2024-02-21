@@ -1,0 +1,30 @@
+.timer-ceil {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+
+    &__amount {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        aspect-ratio: 1;
+        background-color: var(--white);
+        width: 60px;
+
+        font-family: var(--font-accent);
+        font-size: 34px;
+        font-weight: 500;
+        letter-spacing: calc(-0.6em / 34);
+        line-height: calc(38 / 34);
+    }
+
+    &__label {
+        display: flex;
+        justify-content: center;
+
+        font-size: 12px;
+        font-weight: normal;
+        line-height: calc(20 / 12);
+    }
+}
