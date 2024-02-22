@@ -4,6 +4,7 @@
     padding-top: 52px;
 
     &__image {
+        user-select: none;
     }
 
     &__content {
@@ -48,7 +49,7 @@
             flex-direction: column;
             row-gap: 12px;
 
-            color: var(--text-neutral);
+            color: var(--text-black-neutral);
 
             &__text {
                 font-size: 16px;

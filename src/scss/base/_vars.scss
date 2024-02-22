@@ -4,43 +4,55 @@
 }
 
 :root {
+    // sizes
+    --laptop-size: 1199px;
+    --tablet-size: 959px;
+    --mobile-size: 599px;
+
     --container-width: 1150px;
     --container-padding: 15px;
 
     --tagline-height: 40px;
     --header-height: 60px;
 
+    // fonts
     --font-main: "Inter", sans-serif;
     --font-accent: "Poppins", sans-serif;
     --font-nav: "Space Grotesk", sans-serif;
 
+    // backgrounds
     --page-bg: #ffffff;
     --black-bg: #141718;
     --black-bg_on-hover: #272727;
 
+    // text-colors
     --text-color: #121212;
-    --text-accent: #377dff;
-    --text-neutral: #141718;
+    --text-black-neutral: #141718;
+
     --text-white: #ffffff;
+    --text-white-neutral: #e8ecef;
+
+    --text-accent: #377dff;
     --text-yellow: #ffaa00;
     --text-gray: #6c7275;
 
+    // colors
     --white: #ffffff;
     --white-smoke: #f3f5f7;
     --white-shadow: #dfe1e3;
+
     --yellow: #ffaa00;
     --yellow-opaque: #edbf41;
     --navajo-white: #ffdd99;
+
     --gray: #6c7275;
-    --gray-dark: #343839;
     --gray-light: #a7aaab;
+    --gray-dark: #343839;
+
     --sea-green: #38cb89;
     --french-raspberry: #c72c48;
 
-    --laptop-size: 1199px;
-    --tablet-size: 959px;
-    --mobile-size: 599px;
-
+    // other
     --transition-duration: 0.3s;
     --button-radius: 8px;
 }

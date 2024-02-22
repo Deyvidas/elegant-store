@@ -52,11 +52,17 @@
             line-height: calc(28 / 16);
 
             & > svg {
-                color: var(--text-neutral);
+                color: var(--text-black-neutral);
             }
 
             &__email-field {
+                color: var(--text-black-neutral);
                 width: 100%;
+
+                &::placeholder {
+                    color: var(--text-gray);
+                    opacity: 1;
+                }
             }
 
             &__submit-btn {
