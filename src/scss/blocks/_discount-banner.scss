@@ -1,9 +1,11 @@
 .discount-banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-top: 52px;
+    margin-top: 52px;
 
     &__image {
+        height: 100%;
+        object-fit: cover;
         user-select: none;
     }
 
@@ -11,6 +13,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-block: 10%;
         padding-left: 72px;
         row-gap: 24px;
 
