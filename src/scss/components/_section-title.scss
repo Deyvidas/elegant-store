@@ -5,7 +5,16 @@
         font-family: var(--font-accent);
         font-size: 40px;
         font-weight: 500;
-        line-height: 1.1;
+        line-height: calc(44 / 40);
+        letter-spacing: calc(-0.4em / 40);
+
+        @include tablet {
+            font-size: 37px;
+        }
+
+        @media (max-width: 799px) {
+            font-size: 34px;
+        }
     }
 
     &__with-pagination {

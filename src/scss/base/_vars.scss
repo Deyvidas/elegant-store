@@ -3,6 +3,12 @@
     --text-color: #ffffff;
 }
 
+@mixin tablet() {
+    @media (max-width: 1150px) {
+        @content;
+    }
+}
+
 :root {
     // sizes
     --laptop-size: 1199px;
@@ -58,4 +64,17 @@
     // other
     --transition-duration: 0.3s;
     --button-radius: 8px;
+
+    @include tablet {
+        // sizes
+        --prod-card-width: 245.5px;
+        --benefit-card-width: 245.5px;
+    }
+
+    @media (max-width: 749px) {
+        --prod-card-width: 231px;
+        --benefit-card-width: 231px;
+    }
+
+    // TODO < 699
 }

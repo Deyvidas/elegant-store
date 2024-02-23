@@ -19,6 +19,10 @@
 
         background-color: var(--navajo-white);
 
+        @media (max-width: 949px) {
+            padding-left: 36px;
+        }
+
         &__title {
             display: flex;
             flex-direction: column;
@@ -38,12 +42,24 @@
                 font-weight: 500;
                 letter-spacing: calc(-0.4em / 40);
                 line-height: calc(44 / 40);
+
+                @include tablet {
+                    font-size: 37px;
+                }
+
+                @media (max-width: 799px) {
+                    font-size: 34px;
+                }
             }
 
             &__invitation {
                 font-size: 20px;
                 font-weight: normal;
                 line-height: calc(32 / 20);
+
+                @include tablet {
+                    font-size: 17px;
+                }
             }
         }
 
@@ -85,6 +101,10 @@
             &:hover {
                 cursor: pointer;
                 background-color: var(--black-bg_on-hover);
+            }
+
+            @include tablet {
+                font-size: 14px;
             }
         }
     }

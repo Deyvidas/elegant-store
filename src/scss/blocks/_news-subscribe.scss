@@ -1,15 +1,43 @@
 .news-subscribe {
     display: grid;
-    grid-template-columns: 360px min(33.3%, 540px) 360px;
+    grid-template-columns: 360px min(37%, 540px) 360px;
     justify-content: center;
     background-color: #dcdcda;
+
+    & picture {
+        display: flex;
+    }
+
+    & img {
+        height: 360px;
+        -webkit-user-drag: none;
+
+        @include tablet {
+            height: 300px;
+        }
+
+        @media (max-width: 949px) {
+            height: 275px;
+        }
+
+        @media (max-width: 899px) {
+            height: 250px;
+        }
+
+        &.left {
+            margin-left: auto;
+        }
+
+        &.right {
+            margin-right: auto;
+        }
+    }
 
     &__content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         row-gap: 32px;
-        padding-inline: 26px;
 
         &__text {
             display: flex;
@@ -24,12 +52,24 @@
                 font-weight: 500;
                 letter-spacing: calc(-0.4em / 40);
                 line-height: calc(44 / 40);
+
+                @include tablet {
+                    font-size: 34px;
+                }
+
+                @media (max-width: 949px) {
+                    font-size: 28px;
+                }
             }
 
             &__invitation {
                 font-size: 18px;
                 font-weight: normal;
                 line-height: calc(30 / 18);
+
+                @include tablet {
+                    font-size: 14px;
+                }
             }
         }
 

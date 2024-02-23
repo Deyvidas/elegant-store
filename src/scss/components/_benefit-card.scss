@@ -23,6 +23,10 @@
             font-size: 20px;
             font-weight: 500;
             line-height: calc(28 / 20);
+
+            @include tablet {
+                font-size: 17px;
+            }
         }
 
         &__text {

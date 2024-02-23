@@ -17,12 +17,21 @@
             font-family: var(--font-accent);
             font-size: 80px;
             font-weight: 500;
-            letter-spacing: -0.0375em;
-            line-height: 1.05;
+            letter-spacing: calc(-3em / 80);
+            line-height: calc(84 / 80);
             margin-bottom: 8px;
+            text-wrap: balance;
 
             & > .accent {
                 color: var(--text-accent);
+            }
+
+            @include tablet {
+                font-size: 60px;
+            }
+
+            @media (max-width: 799px) {
+                font-size: 50px;
             }
         }
 
@@ -31,14 +40,19 @@
             font-weight: normal;
             line-height: 1.6;
             margin-bottom: 28px;
+
+            @include tablet {
+                font-size: 18px;
+                margin-bottom: 22px;
+            }
         }
 
         &__link {
             align-items: center;
-            display: flex;
-            height: 56px;
+            display: inline-flex;
             justify-content: center;
-            width: 234px;
+            padding-block: 12px;
+            padding-inline: 56px;
 
             background-color: var(--black-bg);
             border-radius: var(--button-radius);
@@ -46,11 +60,16 @@
 
             font-size: 18px;
             font-weight: 500;
-            line-height: 1.778;
+            line-height: calc(32 / 18);
+            letter-spacing: calc(-0.4em / 18);
             user-select: none;
 
             &:hover {
                 background-color: var(--black-bg_on-hover);
+            }
+
+            @include tablet {
+                font-size: 14px;
             }
         }
     }
