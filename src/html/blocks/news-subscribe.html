@@ -1,6 +1,4 @@
-<section class="news-subscribe">
-    <img class="news-subscribe__image left" src="./media/images/news-subscribe/subscribe-bg-left@3x.png" draggable="false" alt="Subscribe Background">
-
+<section id="newsSubscribe" class="news-subscribe">
     <div class="news-subscribe__content">
         <div class="news-subscribe__content__text">
             <h2 class="news-subscribe__content__text__title">Join Our Newsletter</h2>
@@ -14,5 +12,13 @@
         </form>
     </div>
 
-    <img class="news-subscribe__image right" src="./media/images/news-subscribe/subscribe-bg-right@3x.png" draggable="false" alt="Subscribe Background">
+    <!--
+    The ./js/newsImages.bundle.js script is responsible
+    for assigning the src and alt attributes since they
+    are not necessary in all resolutions.
+    -->
+
+    <img id="imgLeft" class="news-subscribe__image left" src="./media/images/img-stub.png" draggable="false">
+    <img id="imgRight" class="news-subscribe__image right" src="./media/images/img-stub.png" draggable="false">
+    <script src="./js/newsImages.bundle.js"></script>
 </section>

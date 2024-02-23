@@ -76,5 +76,7 @@
         --benefit-card-width: 231px;
     }
 
-    // TODO < 699
+    @media (max-width: 699px) {
+        --header-height: 80px;
+    }
 }

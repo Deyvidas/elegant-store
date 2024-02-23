@@ -9,6 +9,7 @@ const webpackConf = {
     mode: isDev ? mode : 'production',
     entry: {
         index: './src/ts/index.ts',
+        newsImages: './src/ts/news-subscribe-images.ts',
     },
     module: {
         rules: [

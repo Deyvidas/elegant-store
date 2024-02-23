@@ -1,12 +1,23 @@
 .discount-banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 532px;
     margin-top: 52px;
+
+    @media (max-width: 749px) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 
     &__image {
         height: 100%;
+        width: 100%;
         object-fit: cover;
         user-select: none;
+
+        @media (max-width: 749px) {
+            height: 367px;
+        }
     }
 
     &__content {
@@ -21,6 +32,11 @@
 
         @media (max-width: 949px) {
             padding-left: 36px;
+        }
+
+        @media (max-width: 749px) {
+            padding-inline: 32px;
+            padding-block: 28.5px;
         }
 
         &__title {

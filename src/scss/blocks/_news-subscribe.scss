@@ -1,15 +1,26 @@
 .news-subscribe {
     display: grid;
     grid-template-columns: 360px min(37%, 540px) 360px;
+    grid-template-areas: "left content right";
     justify-content: center;
     background-color: #dcdcda;
 
+    @media (max-width: 749px) {
+        display: block;
+        background-color: transparent;
+    }
+
     & picture {
         display: flex;
+
+        @media (max-width: 749px) {
+            display: none;
+        }
     }
 
     & img {
         height: 360px;
+        user-select: none;
         -webkit-user-drag: none;
 
         @include tablet {
@@ -24,20 +35,32 @@
             height: 250px;
         }
 
+        @media (max-width: 749px) {
+            display: none;
+        }
+
         &.left {
+            grid-area: left;
             margin-left: auto;
         }
 
         &.right {
+            grid-area: right;
             margin-right: auto;
         }
     }
 
     &__content {
+        grid-area: content;
         display: flex;
         flex-direction: column;
         justify-content: center;
         row-gap: 32px;
+
+        @media (max-width: 749px) {
+            padding-block: 95px;
+            padding-inline: 32px;
+        }
 
         &__text {
             display: flex;
