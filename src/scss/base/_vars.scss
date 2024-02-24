@@ -79,4 +79,12 @@
     @media (max-width: 699px) {
         --header-height: 80px;
     }
+
+    @media (max-width: 599px) {
+        --prod-card-width: 152px;
+    }
+
+    @media (max-width: 549px) {
+        --benefit-card-width: 184px;
+    }
 }

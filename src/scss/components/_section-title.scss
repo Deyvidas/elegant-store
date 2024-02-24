@@ -25,11 +25,19 @@
         display: flex;
         justify-content: space-between;
 
+        @media (max-width: 599px) {
+            justify-content: center;
+        }
+
         .swiper-pagination {
             column-gap: 8px;
             display: flex;
             position: static;
             width: fit-content;
+
+            @media (max-width: 599px) {
+                display: none;
+            }
 
             &-bullet {
                 align-items: center;

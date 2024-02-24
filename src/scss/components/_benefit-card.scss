@@ -12,6 +12,11 @@
     background-color: var(--white-smoke);
     color: var(--text-black-neutral);
 
+    @media (max-width: 549px) {
+        padding-inline: 16px;
+        padding-block: 24px;
+    }
+
     &__content {
         display: flex;
         flex-direction: column;
@@ -26,6 +31,10 @@
 
             @include tablet {
                 font-size: 17px;
+            }
+
+            @media (max-width: 549px) {
+                font-size: 14px;
             }
         }
 
